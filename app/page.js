@@ -30,7 +30,7 @@ export default function Home() {
       }
       const response = await axios.get(url, {
         headers: {
-          Authorization: `Bearer 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`,
+          Authorization: `Bearer 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`,
         },
       });
       console.log(response.data.items);
